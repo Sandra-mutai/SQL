@@ -1,0 +1,15 @@
+
+ 1)SELECT("col1 inner join col2 col3 inner col4",
+   "id,name,town,marks").exec { parseList<joinTable>(classParser()) }
+        }
+2)SELECT Names, Name FROM column2 ;
+3)SELECT Unique(town) AS Town, FROM town, WHERE name = id GROUP BY Name
+             
+             
+5) SELECT 85 FROM STUDENT_MARKS
+6) SELECT name,marks FROM `student` ORDER BY mark asc
+7) SELECT 80 FROM STUDENT_MARKS ORDER BY town 'lodwar'
+8) SELECT 70 FROM STUDENT_MARKS ORDER BY town 'except lodwar'
+9) SELECT id, name,town,marks,FROM student ORDER BY name ASC;
+10)
+
